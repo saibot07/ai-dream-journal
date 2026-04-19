@@ -1,0 +1,87 @@
+# Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+*.env
+venv/
+.env
+*.ipynb_checkpoints/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Node.js-related files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+dist/
+
+# Go-related files
+*.out
+*.exe
+*.test
+vendor/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.trace
+*.swp
+*.swo
+
+# General IDE/editor specific settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.code-workspace
+
+# Lock files
+Pipfile.lock
+poetry.lock
+
+# Archives
+*.zip
+*.tar.gz
+*.targz
+*.7z
+*.rar
+*.tar.bz2
+*.tar
+
+# Compiled files
+*.cmake.cache
+*.so
+*.dll
+*.dylib
+*.lib
+*.o
+*.obj
+*.a
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+
+# Coverage reports
+.coverage
+*.cover
+htmlcov/
+coverage.xml
+.cache
+.nosetests.xml
+.cache/
