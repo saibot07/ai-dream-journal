@@ -16,7 +16,13 @@ def load_config():
 
 def log_dream():
     print("Welcome to AI Dream Journal!\n")
-    dream = input("What did you dream about?\n> ")
+    
+    try:
+        dream = input("What did you dream about?\n> ")
+    except EOFError:
+        print("\nInput error. It seems you are running the script in a non-interactive environment. Please provide input in a supported way.")
+        return
+
     print("\nAnalyzing your dream...")
 
     # Mock AI analysis (replace with real NLP/AI modules as needed)
